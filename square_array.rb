@@ -1,4 +1,4 @@
-def square_array(array)
+def square_array2(array)
   squared_array = []
   sa_index = 0
   array.each do |e|
@@ -8,6 +8,6 @@ def square_array(array)
   squared_array
 end
 
-def square_array2(array)
+def square_array(array)
   array.collect {|e| e**2}
 end
