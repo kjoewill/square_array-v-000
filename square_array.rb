@@ -9,5 +9,7 @@ def square_array2(array)
 end
 
 def square_array(array)
-  array.collect{|e| e**2}
+  sa = array.collect{|e| e**2}
+  puts sa.inpect
+  sa
 end
