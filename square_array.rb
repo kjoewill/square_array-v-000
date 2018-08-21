@@ -10,6 +10,6 @@ end
 
 def square_array(array)
   sa = array.collect{|e| e**2}
-  puts sa.inpect
+  puts sa.inspect
   sa
 end
