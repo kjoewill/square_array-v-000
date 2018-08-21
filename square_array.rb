@@ -7,3 +7,7 @@ def square_array(array)
   end
   squared_array
 end
+
+def square_array2(array)
+  array.collect {|e| e**2}
+end
